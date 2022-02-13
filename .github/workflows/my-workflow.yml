@@ -23,4 +23,4 @@ jobs:
         with:
           repoToken: ${{secrets.GITHUB_TOKEN}}
           catFact: ${{steps.cat.outputs.fact}}
-          issueTitle: "a cat fact for you"
+          issueTitle: "a cat fact for you dude"
